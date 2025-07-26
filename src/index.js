@@ -22,7 +22,6 @@ const cors = require('cors')
 app.use(cors({
     origin: [
         'https://codex-frontend-zeta.vercel.app',
-        'https://codex-frontend-1v13tq0e0-ameys-projects-a2b1f1d3.vercel.app',
         'http://localhost:5173'
     ],
     credentials: true 
