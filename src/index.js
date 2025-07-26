@@ -20,7 +20,7 @@ const cors = require('cors')
 // console.log("Hello")
 
 app.use(cors({
-    origin: 'https://codex-frontend-1v13tq0e0-ameys-projects-a2b1f1d3.vercel.app',
+    origin: 'https://codex-frontend-zeta.vercel.app',
     credentials: true 
 }))
 
