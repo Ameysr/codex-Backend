@@ -22,7 +22,8 @@ const cors = require('cors')
 app.use(cors({
     origin: [
         'https://codex-frontend-zeta.vercel.app',
-        'http://localhost:5173'
+        'http://localhost:5173',
+        'https://codex-frontend-1.onrender.com'
     ],
     credentials: true 
 }));
