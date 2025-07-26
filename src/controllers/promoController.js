@@ -1,4 +1,4 @@
-const CoursePromo = require('../models/CoursePromo');
+const CoursePromo = require('../models/coursePromo');
 const Razorpay = require('razorpay');
 const crypto = require('crypto');
 const cloudinary = require('cloudinary').v2;
